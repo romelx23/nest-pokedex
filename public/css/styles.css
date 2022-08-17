@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #333;
+}
+
+.container h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container .emoji {
+  animation: rotate 1s infinite;
+}
+
+.container p {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
